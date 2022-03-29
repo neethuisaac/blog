@@ -25,6 +25,9 @@ use Spatie\YamlFrontMatter\YamlFrontMatter;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('testing',function(){
+    dd($_SERVER);
+});
 Route::get('ping',function(){
     //dd(time());
     //dd(date('d m Y g:i:s a'));
