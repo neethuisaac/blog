@@ -17,6 +17,7 @@ class ImportFromFileSeeder extends Seeder
         echo $file_name;
         print_r($_SERVER['OS']);
         $command = "sudo mysql -u root --database blog2 < $file_name";
+
         //exec($command);
     }
 }
